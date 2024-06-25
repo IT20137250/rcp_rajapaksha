@@ -21,7 +21,7 @@ const HomeInfo = ({ currentStage }) => {
                     Worked with many companies <br /> and picked up many skills along the way
                 </p>
 
-                <Link to='http://rcprajapaksha.s3-website-us-east-1.amazonaws.com/' className='neo-brutalism-white neo-btn'>
+                <Link to='https://my-portfolio-blue-eight-67.vercel.app/' className='neo-brutalism-white neo-btn'>
                     Learn more
                     <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
                 </Link>
@@ -36,7 +36,7 @@ const HomeInfo = ({ currentStage }) => {
                     Led multiple projects to success over the years. <br /> Curious about the impact?
                 </p>
 
-                <Link to='http://rcprajapaksha.s3-website-us-east-1.amazonaws.com/' className='neo-brutalism-white neo-btn'>
+                <Link to='https://my-portfolio-blue-eight-67.vercel.app/' className='neo-brutalism-white neo-btn'>
                     Visit my portfolio
                     <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
                 </Link>

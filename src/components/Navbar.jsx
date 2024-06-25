@@ -7,8 +7,11 @@ const Navbar = () => {
                 <p className="font-bold blue-gradient_text">RCP</p>
             </NavLink>
             <nav className="flex text-lg gap-7 font-medium">
-                <NavLink to="http://rcprajapaksha.s3-website-us-east-1.amazonaws.com/" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
+                <NavLink to="https://my-portfolio-blue-eight-67.vercel.app/" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
                     <span className="blue-gradient_text">My</span> Portfolio
+                </NavLink>
+                <NavLink to="https://suranimala.vercel.app/" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
+                    Research
                 </NavLink>
                 <NavLink to="/contact" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
                     Contact
