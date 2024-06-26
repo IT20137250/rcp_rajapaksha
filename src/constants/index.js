@@ -1,14 +1,15 @@
 import {
     contact,
     github,
-    linkedin
+    linkedin,
+    youtube,
 } from "../assets/icons";
 
 export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/contact',
+        link: 'tel:0715264449',
     },
     {
         name: 'GitHub',
@@ -18,6 +19,11 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/rcp-rajapaksha-10606723a/',
+        link: 'https://www.linkedin.com/in/chanakarajapaksha/',
+    },
+    {
+        name: 'YouTube',
+        iconUrl: youtube,
+        link: 'https://www.youtube.com/@RCPRajapaksha',
     }
 ];
